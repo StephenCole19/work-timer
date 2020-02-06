@@ -40,7 +40,7 @@ currentTime=`date +'%I:%M'`
 hour=`date +'%I'`
 
 
-while [[ $currentTime != "5:00" ]]; do
+while [[ $currentTime != "05:00" ]]; do
 	currentTime=`date +'%I:%M'`
 	
 	alertTimes=("09:30" "10:00" "11:00" "12:00" "01:00" "02:00" "03:00" "04:00" "04:10" "05:00")
@@ -62,6 +62,6 @@ while [[ $currentTime != "5:00" ]]; do
 done
 
 echo "Time to Leave!"
-
+exit 1
 
 #-----------------------------------------------------------------------------
