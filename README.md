@@ -1,4 +1,4 @@
-#Work Timer
+# Work Timer
 
 To install and run work-timer use
 ```
